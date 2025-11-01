@@ -9,7 +9,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-class program19_5
+class Logic
 {
 	void calculatePower(int iBase, int iExp)
 	{
@@ -35,7 +35,7 @@ class program19_5
 	}
 }
 
-class program4_5
+class program19_5
 {
 	public static void main(String A[])
 	{
