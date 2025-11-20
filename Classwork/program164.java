@@ -29,9 +29,11 @@ class Pattern
 		/* iterate total times and divide by iCol and print
 		for(i = 0; i < (iRow*iCol); i++)
 		{
-			if(i % 4 == 0)
+			System.out.print("*\t");
+
+			if(i % iCol == 0)
 			{
-				System
+				System.out.println();
 			}
 		}
 		*/
