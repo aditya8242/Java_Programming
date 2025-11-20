@@ -1,0 +1,45 @@
+import java.util.*;
+
+// Input: 5
+// Output: -5	-
+class Pattern
+{
+	public void Display(int iNo)
+	{
+		int iCnt = 0;
+
+		/*	OG
+		for(iCnt = -iNo; iCnt <= iNo; iCnt++)
+		{
+			System.out.print(iCnt + "\t");
+		}
+		*/
+
+		for(iCnt = -iNo; iCnt <= 0; iCnt++)
+		{
+			System.out.print(iCnt + "\t");
+		}
+
+		for(iCnt = 1; iCnt <= iNo; iCnt++)
+		{
+			System.out.print(iCnt + "\t");
+		}
+
+		System.out.println();
+	}
+}
+
+class program160
+{
+	public static void main(String A[])
+	{
+		int iValue = 0;
+		Scanner sobj = new Scanner(System.in);
+		
+		System.out.println("Enter the frequency: ");
+		iValue = sobj.nextInt();
+
+		Pattern pobj = new Pattern();
+		pobj.Display(iValue);
+	}
+}
